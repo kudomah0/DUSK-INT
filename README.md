@@ -42,12 +42,11 @@ Masukan Password Bebas 2x</p>
 <p>Masukan Password Lagi Samain Aja</p>
 <h2 id="start-node">Start Node</h2>
 <blockquote>
-<p>
 <pre>
   <code>
    service rusk start 
   </code>
-</pre></p>
+</pre>
 </blockquote>
 <h1 id="check-log-node">Check Log Node</h1>
 <blockquote>
