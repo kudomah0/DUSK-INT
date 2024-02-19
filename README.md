@@ -25,7 +25,9 @@ curl --proto ‘=https’ --tlsv1.2 -sSfL <a href="https://github.com/dusk-netwo
 </blockquote>
 <h2 id="import-pharse-wallet">Import Pharse Wallet</h2>
 <blockquote>
-<p>rusk-wallet restore</p>
+<p>
+<conde>rusk-wallet restore</conde>
+</p>
 </blockquote>
 <p>Paste Pharse Kalian (Pastikan Huruf Kecil Semua)<br>
 Masukan Password Bebas 2x</p>
