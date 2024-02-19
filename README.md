@@ -26,35 +26,51 @@ curl --proto ‘=https’ --tlsv1.2 -sSfL <a href="https://github.com/dusk-netwo
 <h2 id="import-pharse-wallet">Import Pharse Wallet</h2>
 <blockquote>
 <p>
-<conde>rusk-wallet restore</conde>
+  <pre><conde>rusk-wallet restore</conde></pre>
 </p>
 </blockquote>
 <p>Paste Pharse Kalian (Pastikan Huruf Kecil Semua)<br>
 Masukan Password Bebas 2x</p>
 <h2 id="jalankan-kode-di-bawah">Jalankan Kode di Bawah</h2>
 <blockquote>
-<p>rusk-wallet export -d /opt/dusk/conf -n consensus.keys</p>
+<p><pre><code>rusk-wallet export -d /opt/dusk/conf -n consensus.keys</code></pre></p>
 </blockquote>
 <p>Masukan Password Lagi 2x</p>
 <blockquote>
-<p>sh /opt/dusk/bin/setup_consensus_pwd.sh</p>
-</blockquote>
+<p><pre><code>sh /opt/dusk/bin/setup_consensus_pwd.sh</code></pre>
+  </blockquote>
 <p>Masukan Password Lagi Samain Aja</p>
 <h2 id="start-node">Start Node</h2>
 <blockquote>
-<p>service rusk start</p>
+<p>
+<pre>
+  <code>
+   service rusk start 
+  </code>
+</pre></p>
 </blockquote>
 <h1 id="check-log-node">Check Log Node</h1>
 <blockquote>
-<p>grep “block accepted” /var/log/rusk.log</p>
+<p>
+  <pre>
+    <code>grep “block accepted” /var/log/rusk.log</code>
+  </pre></p>
 </blockquote>
 <p>atau</p>
 <blockquote>
-<p>tail -f /var/log/rusk.log</p>
+<p><pre>
+  <code>
+    tail -f /var/log/rusk.log
+  </code>
+</pre></p>
 </blockquote>
 <h2 id="check-wallet">Check Wallet</h2>
 <blockquote>
-<p>rusk-wallet</p>
+<p><pre>
+  <code>
+    rusk-wallet
+  </code>
+</pre></p>
 </blockquote>
 <p>➖ Pilih Acces Your Wallet dan Enter<br>
 ➖ Masukan Password (Pastikan Address Kalian Sama Dengan Yang di Website)<br>
