@@ -19,7 +19,9 @@ sudo ufw enable
 </blockquote>
 <h2 id="install-github">Install Github</h2>
 <blockquote>
-<p><code>curl --proto ‘=https’ --tlsv1.2 -sSfL <a href="https://github.com/dusk-network/itn-installer/releases/download/v0.1.0/itn-installer.sh">https://github.com/dusk-network/itn-installer/releases/download/v0.1.0/itn-installer.sh</a> | sudo sh</code></p>
+<pre><code>sudo ufw allow 22 
+curl --proto ‘=https’ --tlsv1.2 -sSfL <a href="https://github.com/dusk-network/itn-installer/releases/download/v0.1.0/itn-installer.sh">https://github.com/dusk-network/itn-installer/releases/download/v0.1.0/itn-installer.sh</a> | sudo sh
+</code></pre>
 </blockquote>
 <h2 id="import-pharse-wallet">Import Pharse Wallet</h2>
 <blockquote>
